@@ -1,0 +1,447 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+/* Зовнішнє підключення шріфів (через посилання або плагін) */
+
+/* "Noto Kufi Arabic" */
+
+/* підключення через плагін */
+@import url("https://fonts.googleapis.com/css?family=Noto+Kufi+Arabic:regular&display=swap");
+
+/* підключення через google fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap"); */
+
+/* "Ms Madi" */
+
+/* підключення через плагін */
+
+@import url("https://fonts.googleapis.com/css?family=Ms+Madi:regular&display=swap");
+
+/* підключення через google fonts */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap"); */
+
+/* "Roboto" */
+
+/* підключення через плагін */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:,400&display=swap&subset=cyrillic-ext");
+
+/* підключення через google fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:400&display=swap&subset=cyrillic-ext"); */
+
+/* "Rubik Moonrocks" */
+
+/* підключення через плагін */
+@import url("https://fonts.googleapis.com/css?family=Rubik+Moonrocks:regular&display=swap&subset=cyrillic-ext");
+
+/* підключення через google fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"); */
+
+/* "Noto Sans Japanese" */
+/* підключення через плагін */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:regular&display=swap");
+
+/* підключення через google fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"); */
+
+/*Локальне підключення шрифтів*/
+
+/* "Comforter Brush" */
+@font-face {
+	font-family: "Comforter Brush";
+	src: url("../fonts/comforter_brush/ComforterBrush-Regular.woff2") format("woff2"), url("../fonts/comforter_brush/ComforterBrush-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* "Gulzar" */
+@font-face {
+	font-family: "Gulzar";
+	src: url("../fonts/gulzar/Gulzar-Regular.woff2") format("woff2"), url("../fonts/gulzar/Gulzar-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* "Larsseit" */
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/larsseit/Larsseit.woff2") format("woff2"), url("../fonts/larsseit/Larsseit.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/lansseit/Larsseit-Medium.woff2") format("woff2"), url("../fonts/lansseit/Larsseit-Medium.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/lansseit/Larsseit-Bold.woff2") format("woff2"), url("../fonts/lansseit/Larsseit-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* "Lato" */
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Regular.woff2") format("woff2"), url("../fonts/lato/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Semibold.woff2")format("woff2"), url("../fonts/lato/Lato-Semibold.woff") format("woff");
+	font-display: swap;
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Bold.woff2")format("woff2"), url("../fonts/lato/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/lato/Lato-Black.woff2") format("woff2"), url("../fonts/lato/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* "Splash" */
+@font-face {
+	font-family: "Splash";
+	src: url("../fonts/splash/Splash-Regular.woff2") format("woff2"), url("../fonts/splash/Splash-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* "Syne Mono" */
+@font-face {
+	font-family: "Syne Mono";
+	src: url("../fonts/synemono/SyneMono-Regular.woff2") format("woff2"), url("../fonts/synemono/SyneMono-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* селектори id */
+
+#red{
+	color:#ff0000;
+}
+#green{
+	color:#008000;
+}
+#blue{
+	color:#1c2dc3;
+}
+#black{
+	color:#0e1617;
+}
+/* селектори класу */
+.wrapper {}
+
+.header {}
+
+.header-title {}
+
+.header-subtitle {}
+
+.menu {}
+
+.menu-list {}
+
+.menu-link {}
+
+.roboto {
+	font-family: "Roboto", sans-serif;
+		color: #666a19;
+}
+
+.main {}
+
+.block-text {}
+
+.block-text-text {}
+
+.syne-mono {
+		font-family: "Syne Mono", monospace;
+}
+
+.block-text-cyrillic {}
+
+.block-cyrillic-title {}
+
+.block-text-cyrillic-text {
+	font-family: "Comforter Brush", cursive;
+}
+
+.block-text-cyrillic-subtitle {
+}
+
+.block-text-arabic {}
+
+.block-text-arabic-text {
+	font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+.block-text-japanese {}
+
+.block-text-japanese-title {}
+
+.block-text-japanese-text {
+	font-family: 'Noto Sans JP', sans-serif;
+	color:#cf7676;
+}
+
+.block-text-link {}
+
+.block-text-image {}
+
+.lato {
+	font-family: "Lato", sans-serif;
+		color: #a8af29;
+}
+
+.arial {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+		color: #1c8c47;
+}
+
+.block-color {}
+
+.block-color-header {}
+
+.block-color-header-title {}
+
+.block-color-header-subtitle {}
+
+.block-color-body {}
+
+.block-color-text {}
+
+.comforter-brush {}
+
+.link {}
+
+.block-color-body-image {}
+
+.block-color-body-link {}
+
+.gulzar {
+	font-family: "Gulzar", serif;
+		color: #5f659d;
+}
+
+.block-color-body-span {}
+
+.block-fonts {
+	font-family: "Ms Madi", cursive;
+		text-transform: uppercase;
+}
+
+.block-fonts-header {}
+
+.block-fonts-title {}
+
+.block-fonts-subtitle {}
+
+.block-fonts-link {}
+
+.block-fonts-body {}
+
+.block-fonts-image {}
+
+.block-size {}
+
+.block-size-image {}
+
+.block-size-body {}
+
+.block-size-title {}
+
+.block-size-text {}
+
+.block-size-span {}
+
+.larsseit {
+	font-family: "Larsseit", sans-serif;
+		color: #341a7d;
+}
+
+.splash {
+	font-family: "Splash", cursive;
+		color: #2d815d;
+		font-size: 50px;
+}
+
+.button {}
+
+.botton-link {}
+
+.footer {}
+
+/* селектори тегу */
+h1.header-title{
+	font-family: "lato", sans-serif;
+	color:#8f3333;
+}
+h2.header-subtitle{
+	font-family: "Ms Madi", cursive;
+	color:#194128;
+}
+div>div.block-text-cyrillic>h2.title {
+	font-family: "Rubik Moonrocks", cursive;
+	color: #238732;
+}
+h3.title{
+	color:#1a92ce;
+}
+ul li{
+   font-family: "Syne Mono", monospace;
+	color:#341a7d;
+}
+ul li> a.list-menu-link{
+	font-family: "Roboto", sans-serif;
+	color:bisque;
+}
+div p.block-text-text.roboto{
+	font-family: "Lato", sans-serif;
+color:#238732;
+}
+div.block-text > p.block-text-text.roboto + div >h2 + p{
+	font-family: "Splash", cursive;
+	color:#8f3333;
+}
+div.block-text>p.block-text-text.roboto + div > h2 + p + p + h4{
+		font-family: "Rubik Moonrocks", cursive;
+		color:#1f519d;
+}
+div.block-text>p.block-text-text.roboto+div>h2+p+p+h4+p{
+	color:#979b52;
+		font-family: "Roboto", sans-serif;
+}
+div.block-text>p.block-text-text.roboto+div>h2+p+p+h4+p+p.block-text-cyrillic-text{
+	color:#be233a;
+}
+div.block-text>p.block-text-text.roboto+div>h2+p+p+h4+p~p {
+	color: #536786;
+}
+div.block-text>p.block-text-text.roboto+div>h2+p+p+h4+p+p+p+span{
+	font-family: "Gulzar", serif;
+	color:#2ad25c;
+}
+div > p.block-text-text.roboto+div+div.block-text-arabic>p+p{
+	color:#7fff00;
+}
+div>p.block-text-text.roboto+div+div.block-text-arabic+div.block-text-japanese+a{
+	font-family: "Splash",
+		cursive;
+	color:#7fffd4;
+}
+div>p.block-text-text.roboto+div+div.block-text-arabic+div.block-text-japanese+a+div+p>span.color-span{
+	font-family: "Gulzar", serif;
+	color:#00008b;
+}
+div>p.block-text-text.roboto+div+div.block-text-arabic+div.block-text-japanese+a+div+p+p>span.roboto{
+	color:#ff1493;
+}
+div>p.block-text-text.roboto+div+div.block-text-arabic+div.block-text-japanese+a+div+p+p{
+	font-family: "Lato", sans-serif;
+	color:#ff7f50;
+}
+div.block-text+ div>div>h3{
+		font-family: "Ms Madi", cursive;
+	color:#238732;
+}
+div.block-text+div>div>h3+h4{
+		font-family: "Syne Mono", monospace;
+	color:#341a7d;
+}
+div.block-text+div>div>h3+h4~p.block-color-header-text{
+	font-family: "Splash", cursive;
+	color:#2ad25c;
+}
+div.block-text+div>div>h3+h4+p.text{
+		font-family: "Larsseit", sans-serif;
+	color:#c03450;
+}
+.block-color>div+.block-color-body>p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:#deb887;
+}
+.block-color>div+.block-color-body>p>span.arial+span{
+		font-family: "Comforter Brush", cursive;
+	color:#ff7f50;
+}
+.block-color>div+.block-color-body>p+span.span{
+		font-family: "Ms Madi", cursive;
+	color:#da70d6;
+}
+.block-color>div+.block-color-body>p+span.span+p+a{
+		font-family: "Roboto", sans-serif;
+	color:#227a3c;
+}
+.block-color>div+.block-color-body>p+span.span+p+a+div+p>a{
+			font-family: "Syne Mono", monospace;
+	color:#8a2be2;
+}
+.block-color>div+.block-color-body>p+span.span+p+a+div+p+span{
+		font-family: "Ms Madi", cursive;
+	color:#238732;
+}
+.block-fonts,
+.block-size{
+	color:#668cc5;
+}
+div .block-fonts>div>h3{
+		font-family: "Splash", cursive;
+	color:#a52a2a;
+}
+div .block-fonts>div>h3+h4{
+		font-family: "Larsseit", sans-serif;
+	color:#7fff00;
+}
+div .block-fonts>div>h3+h4+a{
+		font-family: "Gulzar", serif;
+	color:#ffd700;
+}
+div .block-text+ div.block-color+div.block-fonts>.block-fonts-header+.block-fonts-body>p{
+	font-family: "Lato", sans-serif;
+	color:#c03450;
+}
+div .block-text+div.block-color+div.block-fonts+div.block-size>h4{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color:#baa963;
+}
+div.block-text+div.block-color+div.block-fonts+div.block-size>h4+div.block-size-image+div.block-size-body>h5+p.block-size-text {
+		font-family: "Splash", cursive;
+	color: rgb(173, 89, 106);
+}
+div.block-text+div.block-color+div.block-fonts+div.block-size>h4+div.block-size-image+div.block-size-body>h5+p.block-size-text+a+p.block-size-text{
+			font-family: "Larsseit", sans-serif;
+}
+div >a.botton-link{
+	font-family: "Rubik Moonrocks", cursive;
+color:#c4c421;
+}
+
+
